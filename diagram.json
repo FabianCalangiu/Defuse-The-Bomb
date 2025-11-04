@@ -37,13 +37,7 @@
       "attrs": { "color": "green", "xray": "1" }
     },
     { "type": "wokwi-led", "id": "led1", "top": -250, "left": 10, "attrs": { "color": "blue" } },
-    {
-      "type": "wokwi-led",
-      "id": "led2",
-      "top": -253.2,
-      "left": 90.2,
-      "attrs": { "color": "white" }
-    },
+    { "type": "wokwi-led", "id": "led2", "top": -250, "left": 90, "attrs": { "color": "white" } },
     {
       "type": "wokwi-led",
       "id": "led3",
@@ -58,7 +52,7 @@
       "top": -249.6,
       "left": -384,
       "attrs": {
-        "text": "Blue: (Button:13, Led:12)\nWhite: (Button:11, Led:10)\nYellow: (Button:9, Led: 8)\nGreen: (Button:7, Led:6)\nRed led: Pin 0\nFor reference all button pins are to GND (Black wires)"
+        "text": "Blue: (Button:13, Led:12)\nWhite: (Button:11, Led:10)\nYellow: (Button:9, Led: 8)\nGreen: (Button:7, Led:6)\nRed led: Pin 2"
       }
     },
     { "type": "wokwi-potentiometer", "id": "pot1", "top": 220, "left": 160, "attrs": {} },
@@ -84,8 +78,8 @@
     [ "pot1:GND", "uno:GND.2", "black", [ "h-35.4", "v-77.3", "h15.9" ] ],
     [ "pot1:VCC", "uno:5V", "red", [ "v18.7", "h-74.6", "v-115.7" ] ],
     [ "pot1:SIG", "uno:A0", "green", [ "v28.3", "h41", "v-105.6", "h-32" ] ],
-    [ "led5:C", "uno:0", "red", [ "v178", "h-109.5" ] ],
-    [ "led5:A", "uno:GND.1", "black", [ "v0" ] ]
+    [ "led5:A", "uno:GND.1", "black", [ "v0" ] ],
+    [ "led5:C", "uno:2", "red", [ "v178", "h-125" ] ]
   ],
   "dependencies": {}
 }
